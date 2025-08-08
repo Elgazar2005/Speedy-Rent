@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.main form {
+  background-color: silver;
+  padding: 3em;
+  border-radius: 3em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: anchor-center;
+  gap: 0.5em;
+}
+.main .input {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 20em;
+}
+.main .remeber {
+  width: 20em;
+}
+.main p {
+  font-size: 2em;
+}
+.main .Btn
+{
+    width: 20em;
+}
+@media screen and (max-width: 768px) {
+  .main .fast {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .main .input {
+    width: 14em;
+  }
+  .main .remeber {
+    width: 14em;
+  }
+.main .Btn   {
+    width: 14em;
+  }
+  
+}

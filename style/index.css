@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+.space {
+  margin: 2em;
+}
+
+.home .carousel-inner .carousel-caption.two {
+  bottom: 48%;
+}
+.home .carousel-inner .carousel-caption.three {
+  bottom: 42%;
+  left: 17%;
+}
+@media screen and (max-width: 768px) {
+  .video {
+    width: 100%;
+  }
+  .home .word {
+    bottom: 25% !important;
+  }
+}
